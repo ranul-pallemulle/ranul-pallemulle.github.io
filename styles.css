@@ -13,8 +13,7 @@ body {
 
 .resume-content {
     min-height: 100vh;
-    max-width: 1215px;
-    width: 80%;
+    width: 21cm;
     margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -38,12 +37,14 @@ body {
 
 .right-section-content {
     width: 100%;
-    padding: 3rem 2.5rem;
-    letter-spacing: 1px;
+    padding: 2rem 2.5rem;
+    letter-spacing: 0.5px;
+    font-size: 13px;
 }
 
 .left-section-bottom {
     margin: 1.5rem auto;
+    font-size: 14px;
 }
 
 .picture-container {
@@ -57,7 +58,7 @@ body {
 .name {
     color: #000;
     font-family: 'Playfair Display SC';
-    font-size: 30px;
+    font-size: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
@@ -67,16 +68,16 @@ body {
 
 .profession {
     color: #000;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .info-section:not(:first-of-type){
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .left-title-holder {
@@ -90,9 +91,9 @@ body {
 .left-title {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
-    padding: 5px 15px;
+    padding: 6px 15px;
 }
 
 table.info-table,
@@ -114,30 +115,37 @@ table.info-table tr {
 
 table.info-table th {
     text-align: left;
-    width: 40%;
-    font-size: 18px;
+    width: 35%;
+    font-size: 16px;
 }
 
 table.info-table td {
     text-align: right;
-    width: 60%;
-    font-size: 17px;
+    width: 65%;
+    font-size: 14px;
     color: #454545;
 }
 
 table.info-table th, table.info-table td {
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .references-item,
 .follow-me-item {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.references-item:first-of-type {
+    margin-top: 10px;
+}
+
+.references-item:last-of-type {
+    margin-bottom: 0;
 }
 
 .references-item {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .follow-me-item {
@@ -148,7 +156,7 @@ table.info-table th, table.info-table td {
 .references-item-name,
 .follow-me-item-name {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .references-item-position {
@@ -161,11 +169,11 @@ table.info-table th, table.info-table td {
 }
 
 .references-item-contact-item {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .references-item-contact-item > span {
-    font-size: 17px;
+    font-size: 14px;
     color: #454545;
     padding-left: 10px;
 }
@@ -177,7 +185,7 @@ table.info-table th, table.info-table td {
 .section-title {
     text-transform: uppercase;
     color: #000;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
 }
 
