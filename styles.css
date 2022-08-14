@@ -92,7 +92,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #fff;
-    padding: 10px 15px;
+    padding: 5px 15px;
 }
 
 table.info-table,
@@ -114,11 +114,14 @@ table.info-table tr {
 table.info-table th {
     text-align: left;
     width: 40%;
+    font-size: 18px;
 }
 
 table.info-table td {
     text-align: right;
     width: 60%;
+    font-size: 17px;
+    color: #454545;
 }
 
 table.info-table th, table.info-table td {
@@ -178,7 +181,6 @@ table.info-table th, table.info-table td {
 }
 
 .post-title {
-    margin-top: 5px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -186,4 +188,58 @@ table.info-table th, table.info-table td {
 .post-place {
     font-size: 16px;
     color: #454545;
+}
+
+ul.post-items {
+    padding-left: 1.5em;
+}
+
+ul.post-items li {
+    list-style: disc;
+}
+
+.post-description {
+    margin-bottom: 10px;
+}
+
+.post-subtopic {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.all-skills {
+    display: flex;
+    margin-top: 5px;
+}
+
+.skill-items {
+    width: 50%;
+}
+
+.skill-item {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.all-skills-left {
+    padding-right: 20px;
+}
+
+.all-skills-right {
+    padding-left: 20px;
+}
+
+.skill-progress {
+    height: 10px;
+    width: 100%;
+    background: #d3d3d3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.skill-progress > span {
+    background-color: #454545;
+    display: block;
+    height: 100%;
 }
