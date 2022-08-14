@@ -37,7 +37,7 @@ body {
 
 .right-section-content {
     width: 100%;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 1.5rem;
     letter-spacing: 0.5px;
     font-size: 13px;
 }
@@ -206,7 +206,7 @@ table.info-table th, table.info-table td {
 }
 
 .post-place {
-    font-size: 16px;
+    font-size: 14px;
     color: #454545;
 }
 
