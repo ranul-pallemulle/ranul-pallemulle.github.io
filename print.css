@@ -4,13 +4,23 @@
         print-color-adjust: exact !important;
     }
 
+    html, body {
+        height: 100%;
+    }
+
     .resume-content {
         width: 100%;
         margin: 0;
+        height: 200vh;
     }
 
     a {
         text-decoration: none;
         color: unset;
+    }
+
+    section.education {
+        page-break-before: always;
+        margin-top: 2rem;
     }
 }
